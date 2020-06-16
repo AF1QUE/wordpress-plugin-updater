@@ -71,7 +71,7 @@ Vue.component("activation-view", {
             <label style="display: block;" v-if="$data.newsletterPrivacy != ''">
                 <input style="float: left;margin-top: 0px;" type="checkbox" v-model="newsletter"/>
                 <span style="font-size: 11px;display: block;margin: 10px 0 10px 27px">
-                    {{ $wplsTranslations['I want to receive sales offers and MatthiasWeb WordPress news via email and agree to the privacy policy.'] }} <a :href="$data.newsletterPrivacy" target="_blank">{{ $wplsTranslations['Privacy policy (external link)'] }}</a>
+                    {{ $wplsTranslations['I would like to receive the devowl.io newsletter with WordPress news, sales offers and product updates (approx. 1-2 per month) by e-mail. I have read and agree to the privacy policy. I know that I can unsubscribe the newsletter at any time.'] }} <a :href="$data.newsletterPrivacy" target="_blank">{{ $wplsTranslations['Privacy policy (external link)'] }}</a>
                 </span>
             </label>
 

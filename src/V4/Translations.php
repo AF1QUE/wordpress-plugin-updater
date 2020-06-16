@@ -38,8 +38,8 @@ class Translations
                 'Email' => __('Email', 'smoolabs-updater'),
                 'We do not send any emails to you' => __('We do not send any emails to you', 'smoolabs-updater'),
                 'Enter your email' => __('Enter your email', 'smoolabs-updater'),
-                'I want to receive sales offers and MatthiasWeb WordPress news via email and agree to the privacy policy.' => __(
-                    'I want to receive sales offers and MatthiasWeb WordPress news via email and agree to the privacy policy.',
+                'I would like to receive the devowl.io newsletter with WordPress news, sales offers and product updates (approx. 1-2 per month) by e-mail. I have read and agree to the privacy policy. I know that I can unsubscribe the newsletter at any time.' => __(
+                    'I would like to receive the devowl.io newsletter with WordPress news, sales offers and product updates (approx. 1-2 per month) by e-mail. I have read and agree to the privacy policy. I know that I can unsubscribe the newsletter at any time.',
                     'smoolabs-updater'
                 ),
                 'Please provide an email.' => __('Please provide an email.', 'smoolabs-updater'),
